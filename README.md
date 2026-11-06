@@ -11,7 +11,7 @@ Android app (Java) that estimates excess baggage fee for air travel.
 ## Run
 Open the folder in Android Studio, let Gradle sync, then Run on an emulator or device.
 
-Developed By:
+## Developed By:
 - Name: Nur Aaduqa Darnish Bin Sabri
 - Student ID: 2025225046
 - Group: RCS2515B
