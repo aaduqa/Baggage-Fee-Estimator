@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Baggage Fee Estimator</string>
+
+    <!-- Main screen -->
+    <string name="hero_title">Estimate your excess baggage fee</string>
+    <string name="section_details">Flight details</string>
+    <string name="hint_weight">Baggage weight (kg)</string>
+    <string name="label_class">Ticket class</string>
+    <string name="class_economy">Economy 20 kg</string>
+    <string name="class_business">Business 40 kg</string>
+    <string name="hint_rate">Excess rate per kg</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_reset">Reset</string>
+    <string name="tips_title">Good to know</string>
+    <string name="tips_body">• Excess weight is never negative.\n• An 8% service tax is added to the excess charge.\n• Use decimals for exact weight, e.g. 42.5</string>
+
+    <!-- Result card -->
+    <string name="result_title">Your estimate</string>
+    <string name="label_allowance">Free allowance</string>
+    <string name="label_excess_weight">Excess weight</string>
+    <string name="label_charge">Excess charge</string>
+    <string name="label_tax">Service tax (8%)</string>
+    <string name="label_total">Total payable</string>
+    <string name="val_kg">%.1f kg</string>
+    <string name="val_rm">RM %.2f</string>
+    <string name="note_within">Within your free allowance. Nothing to pay.</string>
+    <string name="note_over">%.1f kg over the limit.</string>
+
+    <!-- Errors -->
+    <string name="error_weight_empty">Please enter the baggage weight</string>
+    <string name="error_rate_empty">Please enter the rate per kg</string>
+    <string name="error_invalid_number">Please enter a valid number</string>
+    <string name="error_negative">Value cannot be negative</string>
+    <string name="error_no_browser">No browser app found to open the link</string>
+
+    <!-- Menu / share -->
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+    <string name="share_via">Share app via</string>
+    <string name="share_text">Check out %1$s! Estimate your excess baggage fee: %2$s</string>
+
+    <!-- About page : EDIT THESE WITH YOUR OWN DETAILS -->
+    <string name="about_title">About</string>
+    <string name="about_app_name">Baggage Fee Estimator</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_description">A mobile application that estimates the excess baggage fee for air travel based on baggage weight, ticket class and the rate per kg, including 8% service tax.</string>
+    <string name="about_dev_header">Developer</string>
+    <string name="about_photo_desc">Developer photo</string>
+    <string name="about_name">Name: Nur Aaduqa Darnish Bin Sabri</string>
+    <string name="about_student_no">Student Number: 2025225046</string>
+    <string name="about_group">Group: RCS2515B</string>
+    <string name="about_programme">Programme Code: CS251</string>
+    <string name="about_course">Course: ICT602 Mobile Technology and Development</string>
+    <string name="about_website">Application website:</string>
+    <string name="app_url">https://github.com/yourusername/ExcessBaggageFee</string>
+    <string name="about_copyright">© 2026 NUR AADUQA DARNISH BIN SABRI. All rights reserved. Developed for ICT602 Mobile Technology and Development assignment.</string>
+</resources>

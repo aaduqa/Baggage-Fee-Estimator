@@ -1,0 +1,21 @@
+<resources>
+    <!-- Midnight dark palette -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#0B1A0D</color>
+    <color name="accent">#FFA726</color>
+    <color name="accent_dark">#FFA726</color>
+    <color name="background">#0E1A10</color>
+    <color name="card">#1A2D1D</color>
+    <color name="result_bg">#1A2D1D</color>
+    <color name="text_primary">#E8F5E9</color>
+    <color name="text_secondary">#9DB8A0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ic_launcher_background">#0B1A0D</color>
+    <color name="divider">#2F4A33</color>
+    <color name="success_bg">#1B3A2A</color>
+    <color name="success_text">#81C784</color>
+    <color name="warn_bg">#4A3410</color>
+    <color name="warn_text">#FFB74D</color>
+    <color name="total_bg">#2E7D32</color>
+    <color name="link">#64B5F6</color>
+</resources>
