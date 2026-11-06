@@ -1,4 +1,5 @@
-# Baggage Fee Estimator (ICT602 Mobile Technology Assignment)
+# Baggage Fee Estimator
+(ICT602 Mobile Technology and Development Individual Assignment)
 
 Android app (Java) that estimates excess baggage fee for air travel.
 
