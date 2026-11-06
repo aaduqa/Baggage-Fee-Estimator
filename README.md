@@ -1,5 +1,5 @@
 # Baggage Fee Estimator
-(ICT602 Mobile Technology and Development Individual Assignment)
+(ICT602: Mobile Technology and Development Individual Assignment)
 
 Name: Nur Aaduqa Darnish Bin Sabri
 Student ID: 2025225046
