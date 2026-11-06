@@ -52,6 +52,6 @@
     <string name="about_programme">Programme Code: CS251</string>
     <string name="about_course">Course: ICT602 Mobile Technology and Development</string>
     <string name="about_website">Application website:</string>
-    <string name="app_url">https://github.com/yourusername/ExcessBaggageFee</string>
+     <string name="app_url">https://github.com/aaduqa/Baggage-Fee-Estimator</string>
     <string name="about_copyright">© 2026 NUR AADUQA DARNISH BIN SABRI. All rights reserved. Developed for ICT602 Mobile Technology and Development assignment.</string>
 </resources>
