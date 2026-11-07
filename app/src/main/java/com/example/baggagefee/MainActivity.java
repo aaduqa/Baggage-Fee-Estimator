@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final double ECONOMY_LIMIT_KG = 20.0;
     private static final double BUSINESS_LIMIT_KG = 40.0;
-    private static final double SERVICE_TAX = 0.08; // 8% service tax
+    private static final double SERVICE_TAX = 0.08; 
 
     private ScrollView scrollMain;
     private TextInputLayout layoutWeight, layoutRate;
@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
         double weight = 0, rate = 0;
         boolean valid = true;
 
-        // ---- Validate weight ----
         if (weightText.isEmpty()) {
             layoutWeight.setError(getString(R.string.error_weight_empty));
             valid = false;
@@ -85,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        // ---- Validate rate ----
+ 
         if (rateText.isEmpty()) {
             layoutRate.setError(getString(R.string.error_rate_empty));
             valid = false;
@@ -107,16 +106,15 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        // ---- Calculate ----
         boolean isEconomy = toggleClass.getCheckedButtonId() == R.id.btnEconomy;
         double allowance = isEconomy ? ECONOMY_LIMIT_KG : BUSINESS_LIMIT_KG;
 
-        double excessWeight = Math.max(0, weight - allowance); // never negative
+        double excessWeight = Math.max(0, weight - allowance);
         double charge = excessWeight * rate;
         double tax = SERVICE_TAX * charge;
         double total = charge + tax;
 
-        // ---- Output ----
+
         tvAllowance.setText(String.format(Locale.US, getString(R.string.val_kg), allowance));
         tvExcessWeight.setText(String.format(Locale.US, getString(R.string.val_kg), excessWeight));
         tvCharge.setText(String.format(Locale.US, getString(R.string.val_rm), charge));
@@ -164,7 +162,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // ---------------- Toolbar menu (Share + About) ----------------
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
